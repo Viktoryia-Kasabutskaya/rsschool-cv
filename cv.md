@@ -24,9 +24,13 @@ I am a beginner Front-End Developer. After learning about the Front-End, I reali
 
 You can find my code on [github](https://github.com/Viktoryia-Kasabutskaya).
 
+## Education
+
+**Belarusian National Technical University** Bachelor of Engineering, Thermal Power Plants (2008 - 2013).
+
 ## Courses
 
-Front-end developer - [TeachMeSkills](https://teachmeskills.by/)
+Front-end developer - [TeachMeSkills](https://teachmeskills.by/) (September 2022 - June 2023).
 
 ## Languages
 
