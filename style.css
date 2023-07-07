@@ -1,0 +1,134 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{background: none; border: none; cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+input, button {outline: none; box-shadow: none;}
+.btn:focus {box-shadow: none;}
+ul{margin: 0; padding: 0;}
+p{margin: 0;}
+/*--------------------*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0e0e0e;
+}
+
+.header {
+    background-color: rgba(116, 140, 156, 0.693);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0 10px;
+    font-size: 20px;
+    color: #0e0e0e;; 
+}
+
+.nav-link:hover {
+    color: rgb(234, 233, 217);
+    transition: all 0.3s ease;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.profile-right {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.profile-left {
+    width: 60%;
+}
+
+.profile__avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid rgba(116, 140, 156, 0.693);
+}
+
+.profile__title {
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: rgba(116, 140, 156, 0.693);
+    justify-self: flex-start;
+}
+
+.profile__subtitle {
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+}
+
+.column {
+    width: 40%;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.contacts-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contacts-link {
+    font-size: 18px;
+    color: #0e0e0e;
+    margin-left: 10px;
+}
+
+.skills, .education {
+    margin-top: 40px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.languages {
+    margin-top: 20px;
+}
